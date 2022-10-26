@@ -1,0 +1,22 @@
+h1{
+    font-size: 32pt;
+}
+
+.logotype {
+    color: black;
+    background-color: yellow;
+    margin: 69px;
+    width: 200pt;
+}
+
+h2{
+    font-size: 16;
+}
+
+p{ 
+    font-size: 11;
+}
+
+.logotype:hover{
+    color: yellow
+}
