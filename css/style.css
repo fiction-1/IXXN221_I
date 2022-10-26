@@ -20,3 +20,28 @@ p{
 .logotype:hover{
     color: yellow
 }
+
+.container {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;    
+}
+
+.item { 
+align-content:center;
+margin: 2%;
+min-height: 100px;
+min-width: 200px;
+flex-shrink: 1;
+}
+
+.item-1{
+    background-color: aqua;
+}
+
+.item-2{
+    background-color: coral;
+}
