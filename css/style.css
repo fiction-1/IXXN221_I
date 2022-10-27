@@ -4,6 +4,52 @@ body{
 
 h1{
     font-size: 32pt;
+    color: white;
+    margin-left: 3%;
+}
+
+h1:hover{
+    color: yellow;
+}
+
+
+h2{
+    font-size: 16;
+}
+
+p{ 
+    font-size: 11;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items:baseline;
+    vertical-align: middle;
+    max-width: 90%
+}
+
+.item { 
+    margin: 10%;
+    min-height: 30vh;
+    min-width: 30vh;
+    padding-inline-start: 20px;
+}
+
+.item:hover{
+    border-radius: 10%;
+    border-width: 10%;
+    border-style: ridges;
+}
+
+.item-1{
+    background-image: linear-gradient(to bottom right, gray, black);
+}
+
+.item-2{
+    background-image: linear-gradient(to top right, white, gray);
 }
 
 .logotype {
@@ -12,44 +58,6 @@ h1{
     margin: 69px;
     width: 200pt;
 }
-
-h2{
-    font-size: 16;
-}
-
-p{ 
-    font-size: 11;
-}
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap:wrap;
-    align-items: stretch;
-    position:absolute;
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
-}
-
-.item { 
-margin: 0%;
-min-height: 90%;
-min-width: 300%;
-
-}
-
-.item:hover{
-    background-image: linear-gradient(to top bottom, black, WHITE);
-}
-
-.item-1{
-    background-image: linear-gradient(to bottom right, lime, purple);
-    flex-grow: 3;
-}
-
-.item-2{
-    background-image: linear-gradient(to top right, orange, purple);
-    flex-grow: 2;
+.logotype:hover {
+    color: yellow;
 }
