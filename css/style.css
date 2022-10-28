@@ -1,6 +1,9 @@
 /*text styles */
 body{
     background-color: #242424;
+    font-family: pt-mono, monospace;
+    font-style: normal;
+    font-weight: 100;   
 }
 
 h1{
@@ -13,6 +16,11 @@ h2{
     font-size: 16;
 }
 
+h3{
+    color: #fde900;
+    margin-top: 25%;
+    text-align: center;
+}
 p{ 
     margin-left: 6%;
     margin-right: 6%;
@@ -30,43 +38,46 @@ a{
     color: #fde900;
 }
 
+i{
+    opacity: 75%;
+}
 
 /* flex boxes on home page */
 
 .container {
     display: flex;
-    justify-content:space-around;
+    align-items: center;
     flex-wrap:wrap;
     flex-direction: column;
     max-width: 90%;
     text-align:center;
+    line-height: 5;
 }
 
-.item { 
-    margin: 10%;
-    min-height: 15vh;
+.item {
+    margin: 2vh;
+    min-height: 8vh;
     min-width: 30vh;
     padding-inline-start: 20px;
+    background-color: black;
+    border-color: #fde900;
 }
 
 .item:hover{
-    border-radius: 10%;
-    border-width: 10%;
-    border-style: ridges;
+    background-color: blueviolet;
+
 }
 
 .item-1{
-    background-color: black;
+
 }
 
 .item-2{
-    background-color: black;
+
 }
 
 /*logo type*/
 .logotype {
-    color: black;
-    background-color: yellow;
     margin: 69px;
     width: 200pt;
 }
